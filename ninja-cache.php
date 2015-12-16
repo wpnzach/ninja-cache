@@ -11,6 +11,9 @@ Author: Zach Skaggs
 Version: 0.0
 Author URI: http://zach.support/
 */
+
+include_once 'godaddy-object-cache.php';
+
 // Plugin Folder Path
 if ( ! defined( 'NL_PLUGIN_DIR' ) )
 		define( 'NL_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
