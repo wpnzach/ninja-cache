@@ -12,7 +12,7 @@ Version: 0.0
 Author URI: http://zach.support/
 */
 
-include_once 'godaddy-object-cache';
+include_once 'godaddy-object-cache.php';
 
 // Plugin Folder Path
 if ( ! defined( 'NL_PLUGIN_DIR' ) )
